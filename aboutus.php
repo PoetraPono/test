@@ -11,7 +11,7 @@
 		<div class="about-page">
 			<div class="col-md-8 content-left">
 				<div class="about">
-					<h2 class="head">About Us hahahaha</h2>
+					<h2 class="head">About Us</h2>
 					<p>Rekalpa.com lahir pada pertengahan tahun 2016 yang bertujuan untuk memberikan informasi kepada masyarakat luas entah itu informasi berupa atau pun berupa perbandingan yang orang lain tidak lihat kebetulan kami yang lihat, dan kami pun tidak selalu menyarankan untuk setuju atau mengikuti apapun yang ada di website ini.</p>
 					<p>Seluruh informasi pada website ini adalah hasil dari kami sendiri yang menurut kami patut untuk disampaikan.</p>
 					<div class="more-address"> 
