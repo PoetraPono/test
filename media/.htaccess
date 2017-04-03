@@ -1,0 +1,24 @@
+RewriteEngine on
+  RewriteRule rahasia$ admin.php
+  RewriteRule index$ index.php
+  RewriteRule dashboard$ dashboardAdmin.php
+  RewriteRule wartawan$ dashboardWartawan.php
+  RewriteRule addnews$ frmAddBerita.php
+  RewriteRule news$ dataBerita.php
+  RewriteRule profile$ profileWartawan.php
+  RewriteRule profile-edit$ frmEditProfile.php
+  RewriteRule password-edit$ frmEditPassword.php
+  RewriteRule photo-edit$ frmEditPhoto.php
+  RewriteRule newsdata$ dataBeritaSuper.php
+  RewriteRule addWartawan$ frmAddWartawan.php
+  RewriteRule EditWartawan$ frmEditWartawan.php
+  RewriteRule dataWartawan$ dataWartawan.php
+  RewriteRule addCategory$ frmAddCategory.php
+  RewriteRule dataCategory$ dataCategory.php
+  RewriteRule aboutus$ aboutus.php
+  RewriteRule search$ search.php
+  RewriteRule sitemap.xml$ sitemap.php
+RewriteRule ^post-([0-9]+)-(.*).html$ post.php?id_berita=$1
+RewriteRule ^category-([0-9]+)-(.*)$ category.php?id_category=$1
+RewriteRule ^page-([0-9]+)$ page.php?id=$1
+Options All -Indexes
